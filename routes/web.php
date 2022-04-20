@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::group(['middleware' => ['cors']], function () {
-    Route::get('/api/test-cors', 'Api\CorsController@index');
+    Route::get('/api/test-corss', 'Api\CorsController@index');
 });
 
